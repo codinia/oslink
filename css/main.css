@@ -28,8 +28,9 @@ ul {
     top: 0%;
     left: 0%;
     right: 0%;
+    height: 8%;
     z-index: 5;
-    background: linear-gradient(to right, #ffffff 0%, #d3e6e3 0%, #1ba6c9 100%);
+    background: linear-gradient(to right, #ffffff 0%, #d3e6e3 0%, #5fc0d8 100%);
     padding: .7rem;
 }
 
