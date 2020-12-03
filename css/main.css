@@ -29,9 +29,14 @@ ul {
     display: none;
 }
 header {
+    position: fixed;
+    height: inherit;
+    width: 80%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
+
 
 .menu {
     width: 25px;
@@ -230,7 +235,7 @@ nav ul li a:hover {
 }
 
 @media only screen and (min-width: 650px)  {
-
+    
     .server {
         width: 50%;
     }
