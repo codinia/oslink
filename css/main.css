@@ -325,7 +325,52 @@ nav ul li a:hover {
         width: 80%;
         margin: 0 auto;
     }
+    .show-desktop ul{
+        border-radius: 4px;
+        overflow: hidden;
+    }
+    .show-desktop li{
+        float: left;
+        width: auto;
 
+        
+        
+    }
+    .show-desktop li:hover a:before{
+        right: o;
+        left: 0;
+    }
+    .show-desktop a{
+        color:rgb(255, 255, 255);
+        font-weight:bold;
+        font-size:20px;
+        text-decoration: none;
+        text-align: center;
+        padding: 10px;
+        margin-right: 20px;
+        display: block;
+        position: relative;
+        transition: all 0.3s ease;
+        text-transform: uppercase;
+    }
+    .show-desktop a:hover {
+        color : #e74c3c;
+    }
+    .show-desktop a::before{
+        content:"";
+        transition: all 0.4s ;
+        position: absolute;
+        right: 50%;
+        left: 50%;
+        bottom: 0;
+        height: 2px;
+        background-color: #e74c3c;
+    }
+    .show-desktop a:hover::before{
+        right:0;
+        left:0;
+    }
+    
     .show-desktop {
         display: block;
         margin: 0 auto 13% auto;
