@@ -354,7 +354,7 @@ nav ul li a:hover {
         text-transform: uppercase;
     }
     .show-desktop a:hover {
-        color : #e74c3c;
+        color : #000000;
     }
     .show-desktop a::before{
         content:"";
@@ -364,7 +364,7 @@ nav ul li a:hover {
         left: 50%;
         bottom: 0;
         height: 2px;
-        background-color: #e74c3c;
+        background-color: #000000;
     }
     .show-desktop a:hover::before{
         right:0;
