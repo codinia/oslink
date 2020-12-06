@@ -119,7 +119,9 @@ h1, .subhead {
     margin-top: 15%;
     padding: 4em 0 2em;
     border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
     transform: skewY(-2deg);
+    
 }
 
 .blue-container:before {
@@ -179,6 +181,7 @@ h1, .subhead {
     
         
     padding: 0 50px;
+    border-top-right-radius: 40px;
     
 }
 
