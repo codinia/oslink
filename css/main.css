@@ -3,7 +3,6 @@
 
 body {
     margin: 0;
-    margin: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
@@ -74,7 +73,7 @@ header {
 
 .server {
     width: 70%;
-    margin: 2em auto 2em 25%;
+    margin: 3em auto 2em 25%;
 }
 
 h1, .subhead {
@@ -119,7 +118,6 @@ h1, .subhead {
     margin-top: 15%;
     padding: 4em 0 2em;
     border-top-left-radius: 40px;
-    border-bottom-right-radius: 40px;
     transform: skewY(-2deg);
     
 }
@@ -181,7 +179,7 @@ h1, .subhead {
     
         
     padding: 0 50px;
-    border-top-right-radius: 40px;
+    
     
 }
 
@@ -200,7 +198,7 @@ h1, .subhead {
 
 .container .box{
      
-    width: (25% - 30px);
+    width: calc(25% - 30px);
     background-color: #f1ecec;
     border: 1px dashed #00C2FF;
     border-radius: 5px;
@@ -321,7 +319,7 @@ nav ul li a:hover {
 
 .exit-btn {
     margin-bottom: 1em;
-    margin-top: -1.3em;
+    margin-top: 0.3em;
     text-align: right;
     padding: 0 1.4em;
 }
@@ -337,7 +335,7 @@ nav ul li a:hover {
     
    }
 
-@media  only screen and (min-width: 565px) , (max-width: 580px ) {
+@media  only screen and (min-width: 565px) {
    server {
         width: 50%;
     }
