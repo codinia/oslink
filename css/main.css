@@ -193,6 +193,7 @@ h1, .subhead {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    padding: 4em;
 
 }
 
@@ -328,7 +329,7 @@ nav ul li a:hover {
     width: 15px;
     cursor: pointer;
 }
-@media (max-width: 380px){
+@media (max-width: 425px){
     .container .box {
         width:100%;   
     }
