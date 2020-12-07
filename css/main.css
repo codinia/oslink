@@ -178,7 +178,7 @@ h1, .subhead {
     align-items: center;
     
         
-    padding: 0 50px;
+    padding: 20px 50px;
     
     
 }
@@ -193,7 +193,7 @@ h1, .subhead {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    padding: 4em;
+    
 
 }
 
@@ -212,6 +212,7 @@ h1, .subhead {
 .container .box .icon {
     font-size: 48px;
     color: #060707;
+
 
 }
 .container .box .counter{
@@ -332,6 +333,7 @@ nav ul li a:hover {
 @media (max-width: 425px){
     .container .box {
         width:100%;   
+        align-items: center;
     }
     
    }
