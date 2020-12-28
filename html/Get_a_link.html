@@ -1,24 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/Get_a_link.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-   
+
     <title>Get a link</title>
 </head>
+
 <body>
     <div class="container">
         <header class="navbar-header p-2" id='header-nav'>
             <img src="/oslink/images/logo4.gif" alt="Codinia logo" class="logo">
-        
+
             <nav>
                 <a href="#" class="hide-desktop">
                     <img src="/oslink/images/ham.svg" alt="toggle menu" class="menu" id="menu">
                 </a>
-        
+
                 <ul class="show-desktop hide-mobile" id="nav">
                     <li id="exit" class="exit-btn hide-desktop">
                         <img src="/oslink/images/exit.svg" alt="exit menu">
@@ -30,103 +32,102 @@
                 </ul>
             </nav>
         </header>
-       
+
     </div>
     <div class="space">&nbsp;</div>
-    
-<form class="form-inline" id="formconfig">
-    
-    
-    
-    <input class="app-name" type="text" name="site-name" placeholder="Applicaiton name (max 30 characters) ">
-        <br> <h2>Add all URLS to your app</h2>
-        
-        <div class="input_box_url" id="iphone" title="URL to your app on AppStore (iOS" >
+
+    <form class="form-inline" id="formconfig">
+
+
+
+        <input class="app-name" type="text" name="site-name" placeholder="Applicaiton name (max 30 characters) ">
+        <br>
+        <h2>Add all URLS to your app</h2>
+
+        <div class="input_box_url" id="iphone" title="URL to your app on AppStore (iOS">
             <i class="fab fa-apple icon"></i>
             <div class="input_url">
                 URL to your app on <strong>AppStore (iOS)</strong>
-                <input class="url" type="text" id="iphone_input" >
+                <input class="url" type="text" id="iphone_input">
             </div>
         </div>
- 
-        <div class="input_box_url" id="ipad" title="URL to your iPad only version on AppStore" >
+
+        <div class="input_box_url" id="ipad" title="URL to your iPad only version on AppStore">
             <i class="fab fa-apple icon"></i>
             <div class="input_url">
                 URL to your <strong>iPad only</strong> version on <strong>AppStore</strong>
-                <input class="url" type="text" id="ipad_input" >
+                <input class="url" type="text" id="ipad_input">
             </div>
         </div>
 
-   <div class="input_box_url" id="android" title="URL to your app for Andriod E.g. Google Play" >
-        <i class="fab fa-android icon"></i>
-        <div class="input_url">
-            URL to your app for Android. E.g. <strong>Google Play</strong>
-            <input class="url" type="text" id="android_input" >
+        <div class="input_box_url" id="android" title="URL to your app for Andriod E.g. Google Play">
+            <i class="fab fa-android icon"></i>
+            <div class="input_url">
+                URL to your app for Android. E.g. <strong>Google Play</strong>
+                <input class="url" type="text" id="android_input">
+            </div>
         </div>
-    </div>
-   
-    <div class="input_box_url" id="huawei" title="URL to your app for non-Google Huawei. E.g. AppGallery" >
-        <i class="fab fa-android icon"></i>
-        <div class="input_url">
-            URL to your app for non-Google Huawei. E.g. <strong>AppGallery</strong>
-            <input class="url" type="text" id="huawei_input" >
-        </div>
-    </div>
 
-    <div class="input_box_url" id="windows" title="URL to your app on Microsoft Store" >
-        <i class="fab fa-windows icon"></i>
-        <div class="input_url">
-            URL to your app on <strong>Microsoft Store</strong>
-            <input class="url" type="text" id="windows_input" >
+        <div class="input_box_url" id="huawei" title="URL to your app for non-Google Huawei. E.g. AppGallery">
+            <i class="fab fa-android icon"></i>
+            <div class="input_url">
+                URL to your app for non-Google Huawei. E.g. <strong>AppGallery</strong>
+                <input class="url" type="text" id="huawei_input">
+            </div>
         </div>
-    </div>
-    
-    <div class="input_box_url" id="blackberry" title="URL to your app for Blackberry on Blackberry Appworld or Amazon Appstore" >
-        <i class="fab fa-blackberry icon"></i>
-        <div class="input_url">
-            URL to your app for Blackberry on <strong>Blackberry Appworld</strong> or <strong>Amazon Appstore</strong>
-            <input class="url" type="text" id="blackberry_input" >
+
+        <div class="input_box_url" id="windows" title="URL to your app on Microsoft Store">
+            <i class="fab fa-windows icon"></i>
+            <div class="input_url">
+                URL to your app on <strong>Microsoft Store</strong>
+                <input class="url" type="text" id="windows_input">
+            </div>
         </div>
-    </div>
 
-    <div class="input_box_url" id="kindle" title="URL to your app for Kindle on Amazon Appstore" >
-        <i class="fab fa-amazon  icon"></i>
-        <div class="input_url">
-            URL to your app for Kindle on <strong>Amazon Appstore</strong>
-            <input class="url" type="text" id="kindle_input" >
+        <div class="input_box_url" id="blackberry" title="URL to your app for Blackberry on Blackberry Appworld or Amazon Appstore">
+            <i class="fab fa-blackberry icon"></i>
+            <div class="input_url">
+                URL to your app for Blackberry on <strong>Blackberry Appworld</strong> or <strong>Amazon Appstore</strong>
+                <input class="url" type="text" id="blackberry_input">
+            </div>
         </div>
-    </div>
-    
-    <div class="input_box_url" id="fallback" title="Fallback URL for any other device/browser *" >
-        <i class="fas fa-globe  icon"></i>
-        <div class="input_url">
-            <strong>Fallback URL</strong> for any other device/browser *
-            <input class="url" type="text" id="fallback_input" >
+
+        <div class="input_box_url" id="kindle" title="URL to your app for Kindle on Amazon Appstore">
+            <i class="fab fa-amazon  icon"></i>
+            <div class="input_url">
+                URL to your app for Kindle on <strong>Amazon Appstore</strong>
+                <input class="url" type="text" id="kindle_input">
+            </div>
         </div>
-    </div>
-    
-  
-</form>
 
-<script src='https://kit.fontawesome.com/a076d05399.js'></script> 
-   
-<script>
-        
-    
-    var menu = document.getElementById('menu');
-    var nav = document.getElementById('nav');
-    var exit = document.getElementById('exit');
+        <div class="input_box_url" id="fallback" title="Fallback URL for any other device/browser *">
+            <i class="fas fa-globe  icon"></i>
+            <div class="input_url">
+                <strong>Fallback URL</strong> for any other device/browser *
+                <input class="url" type="text" id="fallback_input">
+            </div>
+        </div>
 
-    menu.addEventListener('click', function(e) {
-        nav.classList.toggle('hide-mobile');
-        e.preventDefault();
-    });
 
-    exit.addEventListener('click', function(e) {
-        nav.classList.add('hide-mobile');
-        e.preventDefault();
-    });
-</script>
+    </form>
+
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+    <script>
+        var menu = document.getElementById('menu');
+        var nav = document.getElementById('nav');
+        var exit = document.getElementById('exit');
+
+        menu.addEventListener('click', function(e) {
+            nav.classList.toggle('hide-mobile');
+            e.preventDefault();
+        });
+
+        exit.addEventListener('click', function(e) {
+            nav.classList.add('hide-mobile');
+            e.preventDefault();
+        });
+    </script>
 </body>
 
 </html>
