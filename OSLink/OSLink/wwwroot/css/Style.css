@@ -18,9 +18,14 @@
 .form-color input{
     padding:10px;
     margin:15px
+
+}
+.form-style {
+    width: 100%;
 }
 
 div.input_url {
+    
     width: 520px;
     height: 43px;
     line-height: 43px;

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\OSLINK\\oslink\\OSLink\\OSLink\\OSLink.csproj": {}
+    "C:\\OSLink\\oslink\\OSLink\\OSLink\\OSLink.csproj": {}
   },
   "projects": {
-    "C:\\OSLINK\\oslink\\OSLink\\OSLink\\OSLink.csproj": {
+    "C:\\OSLink\\oslink\\OSLink\\OSLink\\OSLink.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\OSLINK\\oslink\\OSLink\\OSLink\\OSLink.csproj",
+        "projectUniqueName": "C:\\OSLink\\oslink\\OSLink\\OSLink\\OSLink.csproj",
         "projectName": "OSLink",
-        "projectPath": "C:\\OSLINK\\oslink\\OSLink\\OSLink\\OSLink.csproj",
+        "projectPath": "C:\\OSLink\\oslink\\OSLink\\OSLink\\OSLink.csproj",
         "packagesPath": "C:\\Users\\T440\\.nuget\\packages\\",
-        "outputPath": "C:\\OSLINK\\oslink\\OSLink\\OSLink\\obj\\",
+        "outputPath": "C:\\OSLink\\oslink\\OSLink\\OSLink\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\T440\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,9 +40,43 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
             "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
               "target": "Package",
               "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer.Design": {
+              "target": "Package",
+              "version": "[1.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "UAParser": {
+              "target": "Package",
+              "version": "[3.1.47, )"
             }
           },
           "imports": [

@@ -1,0 +1,32 @@
+﻿@model OSLink.Models.Link
+@{
+    ViewData["Title"] = "Show";
+}
+
+<h1>Show</h1>
+
+<div class="container">
+
+    <dl>
+        <dt>@Html.DisplayNameFor(model => model.UID)</dt>
+        <dd>@Html.DisplayFor(model => model.UID)</dd>
+        <dt>@Html.DisplayNameFor(model => model.Application_Name)</dt>
+        <dd>@Html.DisplayFor(model => model.Application_Name)</dd>
+        <dt>@Html.DisplayNameFor(model => model.Huawei_url)</dt>
+        <dd>@Html.DisplayFor(model => model.Huawei_url)</dd>
+        <dt>@Html.DisplayNameFor(model => model.BlackBerry_url)</dt>
+        <dd>@Html.DisplayFor(model => model.BlackBerry_url)</dd>
+        <dt>@Html.DisplayNameFor(model => model.Ipad)</dt>
+        <dd>@Html.DisplayFor(model => model.Ipad)</dd>
+        <dt>@Html.DisplayNameFor(model => model.Kindel_url)</dt>
+        <dd>@Html.DisplayFor(model => model.Kindel_url)</dd>
+        <dt>@Html.DisplayNameFor(model => model.Microsoft_store)</dt>
+        <dd>@Html.DisplayFor(model => model.Microsoft_store)</dd>
+        <dt>@Html.DisplayNameFor(model => model.Android_url)</dt>
+        <dd>@Html.DisplayFor(model => model.Android_url)</dd>
+        <dt>@Html.DisplayNameFor(model => model.Anyother_url)</dt>
+        <dd>@Html.DisplayFor(model => model.Anyother_url)</dd>
+    </dl>
+    <div ><h4>@ViewBag.message</h4></div>
+    <div><a asp-action="Index">Back to List</a></div>
+</div>

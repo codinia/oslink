@@ -1,4 +1,44 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@model OSLink.Models.Link
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
+<div class="backgroundimage">
+    <div class="container">
+        <div class="row">
+            <form asp-action="Index" class="form-style" method="post" >
+                <div class="col-sm-8 mx-auto">
+                    <div asp-validation-summary="All" class="text-danger"></div>
+                    <div class="form-color form-group">
+
+                        <label>What is the name of your app?</label>
+                        <input type="text" asp-for="UID" class="form-control " id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your app name">
+                        <label>What is the name of your application?</label>
+                        <input type="text" asp-for="Application_Name" class="form-control " id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Application name (max 20 characters)">
+                        <label>Add all URLs to your app</label>
+
+                        <input type="text" asp-for="AppStore_url" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Url to your app on AppStore(IOS)">
+
+                        <input type="text" asp-for="Ipad" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Url to your app on Ipad">
+
+                        <input type="text" asp-for="Android_url" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="URL to your app for Android E.g. Google Play">
+
+                        <input type="text" asp-for="Huawei_url" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="URL to your app for non-Google Huawei. E.g. AppGallery">
+
+                        <input type="text" asp-for="Microsoft_store" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="URL to your app on Michrosoft Store ">
+
+                        <input type="text" asp-for="BlackBerry_url" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="URL to your app for Blackberry on Blackberry AppWorld or Amazon AppStore">
+
+                        <input type="text" asp-for="Kindel_url" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="URL to your app for Kindle on Amazon AppStore">
+
+                        <input type="text" asp-for="Anyother_url" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Fallback URL for any other device/browser">
+
+                        <input type="submit" class="btn btn-primary" />
+
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
